@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/css/iconfont/iconfont.css"/>
+	</head>
+	<body>
+		<!--开屏动画-->
+		<div class="loading-cover" id="loadingCover">
+			<span class="circle bgPic">
+				<img src="images/loading-Home.gif" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/images/loading-Home.gif"/>
+			</span>
+		</div>
+		
+		<!--导航条-->
+		<div class="navbar" id="navbar">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="javascript:;">
+					fir.im 
+				</a>
+			</div>
+			<div class="menue">
+				<i class="icon iconfont">&#xe6de;</i>
+				<ul class="navbar-bracket">
+					<li>
+						<a href="index.html" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/index.html">首页</a>
+						<i class="icon iconfont">&#xe60c;</i>
+					</li>
+					<li>
+						<a href="price/price.html" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/price/price.html">价格</a>
+						<i class="icon iconfont">&#xe60c;</i>
+					</li>
+					<li>
+						<a href="javascript:;">文档</a>
+						<i class="icon iconfont">&#xe60c;</i>
+					</li>
+					<li>
+						<a href="price/tools.html" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/price/tools.html">工具</a>
+						<i class="icon iconfont">&#xe60c;</i>
+					</li>
+					<li>
+						<a href="price/suport.html" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/price/suport.html">帮助中心</a>
+						<i class="icon iconfont">&#xe60c;</i>
+					</li>
+					<li>
+						<a href="price/signin.html" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/price/signin.html">登录</a>
+						<i class="icon iconfont">&#xe60c;</i>
+					</li>
+					<li>
+						<a href="price/sign-up.html" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/price/sign-up.html">注册</a>
+					</li>
+				</ul>
+				<i class="icon iconfont">&#xe6ba;</i>
+			</div>
+		</div>
+		
+		<!--内容区-->
+		<div class="super-container" id="superContainer">
+			<!--第一屏-->
+			<div class="section section-1">
+				
+				<!--飞机-->
+				<div class="plane" id="plane">
+					<img src="images/plane.svg" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/images/plane.svg"/>
+					<div class="propeller">
+						<img src="images/propeller.svg" tppabs="http://cool.miaov.com/20160629js/fanzhongyong/fir/images/propeller.svg" />
+					</div>
+				</div>
+				
+				<!--动态文字-->
+				<div class="beta-app-host" id="betaAppHost"></div>
+				
+			</div>
+			
+			<!--第二屏-->
+			<div class="section section-2">
+				<div class="features" id="flipRotate">
+					<div class="cols">
+						<div class="back"></div>
+						<div class="fonts">
+							<div class="group expanded">
+								<p class="icon iconfont">&#xe6ec;</p>
+								<p class="title">内测托管</p>
+								<p class="text">一键上传应用，扫描二维码下载</p>
+							</div>
+							<div class="group folded">
+								<p class="icon iconfont">&#xe783;</p>
+								<p class="title">权限控制</p>
+								<p class="text">灵活的访问权限控制，可添加团队成员共同上传、管理应用</p>
+							</div>
+						</div>
+					</div>
+					<div class="cols">
+						<div class="back"></div>
+						<div class="fonts">
+							<div class="group expanded" id="expanded">
+								<p class="icon iconfont">&#xe783;</p>
+								<p class="title">应用合并</p>
+								<p class="text">扫描同一个二维码，根据设备类型自动下载对应的 iOS或 Android 应用。</p>
+							</div>
+							<div class="group folded">
+								<p class="icon iconfont">&#xe7ce;</p>
+								<p class="title">开放 API</p>
+								<p class="text">使用 fir.im 的 API 接口可以方便搭建Jenkins 等自动集成的系统</p>
+							</div>
+						</div>
+					</div>
+					<div class="cols">
+						<div class="back"></div>
+						<div class="fonts">
+							<div class="group expanded">
+								<p class="icon iconfont">&#xe7ce;</p>
+								<p class="title">命令行工具</p>
+								<p class="text">fir-cli 可以通过命令行查看、上传、编译、打包应用</p>
+							</div>
+							<div class="group folded">
+								<p class="icon iconfont">&#xe621;</p>
+								<p class="title">Web Hooks</p>
+								<p class="text">应用更新时团队成员会收到更新邮件，添加Web Hooks的第三方平台也会有更新消息提醒</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+																													
+			<!--第三屏-->
+			<div class="section section-3">
+				<div class="boxes-container">
+					<div class="clos">
+						<div class="words">
+							<p class="tool-desc">让测试用户快速获取 UDID 并发送给开发者</p>
+							<i class="fg">︸</i>
+						</div>
+						<div class="wrap">
+							<div class="box">
+								<div>
+									<div class="left"></div>
+									<div class="right"></div>
+								</div>
+								<div></div>
+								<div><i class="icon iconfont">&#xe7ce;</i></div>
+								<div>GET<br>UDID4</div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+					<div class="clos">
+						<div class="words">
+							<p class="tool-desc">读取手机日志，快速定位无法安装的原因</p>
+							<i class="fg">︸</i>
+						</div>
+						<div class="wrap">
+							<div class="box">
+								<div>
+									<div class="left"></div>
+									<div class="right"></div>
+								</div>
+								<div></div>
+								<div><i class="icon iconfont">&#xe7ce;</i></div>
+								<div>GET<br>UDID4</div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="clos">
+						<div class="words">
+							<p class="tool-desc">添加 SDK，灵活实现应用的检测更新功能</p>
+							<i class="fg">︸</i>
+						</div>
+						<div class="wrap">
+							<div class="box">
+								<div>
+									<div class="left"></div>
+									<div class="right"></div>
+								</div>
+								<div></div>
+								<div><i class="icon iconfont">&#xe7ce;</i></div>
+								<div>GET<br>UDID4</div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="clos">
+						<div class="words">
+							<p class="tool-desc">快速检测本机在 fir.im 的上传下载速度</p>
+							<i class="fg">︸</i>
+						</div>
+						<div class="wrap">
+							<div class="box">
+								<div>
+									<div class="left"></div>
+									<div class="right"></div>
+								</div>
+								<div></div>
+								<div><i class="icon iconfont">&#xe7ce;</i></div>
+								<div>GET<br>UDID4</div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--第四屏-->
+			<div class="section section-4">
+				<div class="container">
+					<div class="title">
+						What Our Users Say
+					</div>
+					<div class="users-wrapper" id="users-wrapper">
+						<div class="item active jumei" data-item="active-jumei">
+							<span>聚美</span>
+							<p class="words">就像送自己的孩子去托儿所一样，安全、便捷，fir.im 将我们这些“父母”从发包内测中解放！期待越办越好，小美会一如既往支持 fir.im！</p>
+						</div>
+						<div class="item jiecao" data-item="active-jiecao">
+							<span>节操</span>
+							<p class="words">节操精选的公司内部测试到小范围用户群灰度测试，fir.im 极大方便帮我们解决了安装包传输的问题；安全放心、操作便捷、界面简洁！</p>
+						</div>
+						<div class="item jindong" data-item="active-jindong">
+							<span>京东</span>
+							<p class="words">fir.im 解决了京东阅读客户端每日测试发布的难题，大大减轻了跨地域开发测试的难度，fir.im 加油！</p>
+						</div>
+						<div class="item baoyang" data-item="active-baoyang">
+							<span>保养</span>
+							<p class="words">e 保养一直在用 fir.im 进行测试托管分发，喜欢 fir.im 的 UI 和用户体验设计，硅谷范儿的产品！</p>
+						</div>
+						<div class="item chu" data-item="chu">
+							<span>厨</span>
+							<p class="words">fir.im 与下厨房一样，都在 UI 和 UE 上下功夫，将开发者工具做到简洁极致，提高效率的同时也令人赏心悦目。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--第五屏-->
+			<div class="section section-5">
+				<div class="imfir">
+					<div id="firShow"></div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/jquery-2.1.0.js"></script>
+		<script src="js/index.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				myFirs();//初始化
+			})
+		</script>
+	</body>
+</html>

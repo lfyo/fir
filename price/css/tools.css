@@ -1,0 +1,245 @@
+	/*title*/
+	body,ul,p,h1,h2,ol{
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+	}
+	body,html{
+		height: 100%;
+		width: 100%;
+	}
+   	#tile{
+   		-position: fixed;
+	    -top: 0;
+	    z-index: 9999;
+	    width: 100%;
+	    height: 80px;
+	    line-height: 80px;
+	    transition: .5s;
+	    overflow: hidden;
+	    background: #313639;
+	    color: #fff;
+	    /*overflow：hidden 清浮动的方法，给子集清浮动,写在父级身上*/
+   	}
+	#logo{
+   		float: left;
+   		width: 130px;
+	    height: 100%;
+   	}
+	#logo p{
+	   	font-family: "微软雅黑";
+	   	font-size:30px;
+	   	font-weight: bold;
+	   	text-indent: 1em;
+	}
+	#menue{
+		width: 490px;
+		height: 100%;
+		display: block;
+		float: right;
+	}
+	#menue  i{
+		display: inline-block;
+		font-weight: bold;
+		color: #fff;
+	}
+	.navbar-bracket{
+		width: 394px;
+		height: 100%;
+		display: inline-block;
+		font-family: "微软雅黑";
+	   	font-size: 16px;
+	   	color: #fff;
+	}
+	.navbar-bracket li{
+		-float: left;
+		margin-left: 8px;
+		display: inline-block;
+	}
+	.navbar-bracket li a{
+		color: #fff;
+	}
+	.logo_a{
+		color: #fff;
+		font-family: "微软雅黑";
+		font-size: 25px;
+		padding-left: 15px;
+		font-weight: normal;
+	}
+	.banner{
+		width: 100%;
+	}
+	.banner-tools {
+	    position: relative;
+	    padding-top: 40pxpx;
+	    height: 230px;
+	    background-color: #313639;
+	}
+	.bannerPrice{
+		width: 100%;
+		height: 180px;
+		text-align: center;
+		color: #fff;
+		padding-top:30px ;
+		background: #313639;
+	}
+	.bannerPrice small{
+		font-size: 20px;
+	}
+	.brackets{
+		font-size: 50px;
+		color: #F8BA0B;
+		
+	}
+	.brackets i{
+		font-size: 60px;
+		color:#F8BA0B ;
+	}
+	.pattern-bg {
+	    position: absolute;
+	    bottom: -69px;
+	    z-index: 2;
+	    width: 100%;
+	    height: 138px;
+	    background: url("../src/pattern-tools.png")/*tpa=http://cool.miaov.com/20160629js/fanzhongyong/fir/price/src/pattern-tools.png*/ center center repeat-x;
+	}
+	.tools-content{
+	    margin: 100px auto 0;
+	    padding-bottom: 80px;
+	    width: 980px;
+	    color: #868C8E;
+	    box-sizing: border-box;
+	}
+	.tools-content ul{
+		overflow: hidden;
+	}
+	.tools-content ul li{
+		box-sizing: border-box;
+		float: left;
+		padding: 50px 30px;
+		width: 33.33%;
+		height: 320px;
+		border: 1px solid #ccc;
+		text-align: center;
+		border-left: none;
+		border-top: none;
+		font-family: arial;
+	}
+	.tools-content ul li a:hover .icon,.tools-content ul li a:hover .name,.tools-content ul li a:hover .desc{
+		 color: #1AA79A;
+	}
+	.icon {
+	    margin-bottom: 40px;
+	    color: #505556;
+	    
+	}
+	.icon i{
+		font-size: 88px;
+	}
+	.name {
+	    display: block;
+	    margin-bottom: 18px;
+	    color: #505556;
+	    font-size: 22px;
+	    font-family: "微软雅黑";
+	   
+	}
+	.desc {
+	    display: block;
+	    margin: 0 auto;
+	    color: #8C9293;
+	    line-height: 1.6;
+	    font-size: 16px;
+	}
+	.tools-content ul li a{
+		display: inline-block;
+	    background-color: transparent;
+    	color: #337ab7;
+	}
+	.tools-content ul li:nth-child(3n) {
+	    border-right: none;
+	}
+	.wallpapers-content {
+	    margin: 60px auto 0;
+	    padding-bottom: 80px;
+	    min-height: 400px;
+	    width: 980px;
+	    color: #868C8E;
+	}
+	.wallpapers-content h2{
+		font-size: 30px;
+		margin-top: 20px;
+   		margin-bottom: 10px;
+   		font-weight: normal;
+	}
+	.wallpapers-content ul{
+		overflow: hidden;
+		margin: 0 -12px;
+	}
+	.wallpapers-content li{
+		float: left;
+		padding: 12px;
+		
+		box-sizing: border-box;
+	}
+	.wallpapers-content li:hover{
+		transition:.5s;
+		transform: scale(1.1);
+	}
+	.wallpapers-content li:hover img{
+		box-shadow: 0 3px 12px 0 rgba(0,0,0,.1);	
+	}
+	.brand li{
+		width: 33.33%;
+		
+	}
+	.coder li img,.brand li img{
+		width: 100%;
+		box-shadow: 0 3px 12px 0 rgba(0,0,0,.1);	
+	}
+	.coder li{
+		width: 25%;
+	}
+	
+	
+	.footer{
+	    margin-top: 50px;
+	    text-align: center;
+	    border-top: 1px solid #979797;
+	    padding-top: 30px;
+	    padding-bottom: 40px;
+    }
+	.list-inline{
+		width: 950px;
+		overflow: hidden;
+		color: #505556;
+		font-size: 14px;
+		font-family: arial;
+		margin-left: 10px;
+		margin-bottom: 5px;
+	}
+	.list-inline li{
+		float: left;
+		padding-right: 5px;
+		padding-left:5px;
+		line-height: 30px;
+	}
+	.list-inline li:hover{
+		text-decoration: underline;
+	}
+	.list-inline li a,.locale a{
+		color: #505556;
+		font-size: 14px;
+		font-family: arial;
+	}
+	.locale{
+		width: 200px;
+		display: inline-block;
+		text-align: right;
+	}
+	

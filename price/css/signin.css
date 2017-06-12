@@ -1,0 +1,32 @@
+body,ul,p,h1,h2,ol{padding:0;margin:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+body,html{height:100%;width:100%;box-sizing:border-box;font-size:14px;font-family:"微软雅黑";color:#505556;}
+#tile{width:100%;height:80px;line-height:80px;}
+#logo{width:130px;height:100%;}
+#logo p{font-family:"微软雅黑";font-size:30px;font-weight:bold;text-indent:1em;line-height:80px;color:#505556;}
+.logo_a{color: #000;font-family: "微软雅黑";font-size: 25px;padding-left: 15px;}
+.mid{margin-top:50px;width:100%;height:80px;}
+.partials-brands{text-align:center;}
+.login-tips{font-size:13px;color:#8C9293;margin-bottom:20px;}
+.brands a{color:#313639;font-weight:bold;font-family:arial;}
+.item-firim,.item-bughd{font-size:30px;padding:0 30px;}
+.item-firim{font-size:34px;}
+.item-bughd span{border-radius:20%;background-color:#313639;color:#fff;font-size:22px;padding:1.5px 3px;}
+.item-firim:hover{color:#FFD700;}
+.item-bughd:hover{color:#5E5AE2;}
+.item-bughd:hover span{background-color:#5E5AE2;color:#fff;}
+.form-container{text-align:center;overflow:hidden;margin-bottom:75px;}
+.form-behavior{width:960px;margin:80px auto;}
+.divider span{display:inline-block;vertical-align:middle;padding:8px 40px;font-size:24px;color:#8C9293;}
+.divider:before,.divider:after{content:' ';display:inline-block;vertical-align:middle;width:50%;height:1px;background-color:#BABFC3;}
+.divider:before{margin:0 0% 0 -50%;}
+.divider:after{margin:0 -50% 0 0%;}
+.form-control,.btn,.btn-alternative a{width:360px;height:50px;margin:16px 20px 0;border-radius:10px;background-color:#fff;border:1px solid #BABFC3;text-indent:2em;box-sizing:border-box;outline:none;}
+.btn-block{background-color:#E2644C;color:#fff;font-size:18px;border:none;text-align:center;vertical-align:middle;text-indent:initial;margin-top:40px;}
+.help-section{margin:10px auto;}
+.btn-alternative{background:#fff;border:1px solid #E2644C;color:#E2644C;margin-top:10px;}
+.help-section a{margin:auto;width:360px;display:block;color:#BABFC3;text-align:left;padding:10px 0;}
+#yanzheng{width:200px;margin-left:0;}
+.span{width:134px;display:inline-block;height:50px;border-radius:10px;background-color:#ccc;border:1px solid #BABFC3;text-align:center;line-height:50px;}
+

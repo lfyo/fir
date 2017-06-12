@@ -1,0 +1,57 @@
+/*title*/
+body,ul,p,h1,h2,ol{padding:0;margin:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+body,html{height:100%;width:100%;}
+#tile{-position:fixed;-top:0;z-index:9999;width:100%;height:80px;line-height:80px;transition:.5s;overflow:hidden;background:#313639;color:#fff;/*overflow：hidden 清浮动的方法，给子集清浮动,写在父级身上*/
+}
+#logo{float:left;width:130px;height:100%;}
+#logo p{font-family:"微软雅黑";font-size:30px;font-weight:bold;text-indent:1em;}
+#menue{width:490px;height:100%;display:block;float:right;}
+#menue i{display:inline-block;font-weight:bold;}
+.navbar-bracket{width:394px;height:100%;display:inline-block;font-family:"微软雅黑";font-size:16px;color:#fff;}
+.navbar-bracket li{-float:left;margin-left:8px;display:inline-block;}
+.navbar-bracket li a{color:#fff;}
+.logo_a{color: #fff;font-family: "微软雅黑";font-size: 25px;padding-left: 15px;}
+
+.banner{width:100%;}
+.bannerPrice{width:100%;height:180px;text-align:center;color:#fff;padding-top:30px;background:#313639;}
+.bannerPrice small{font-size:20px;}
+.brackets{font-size:50px;color:#F8BA0B;}
+.brackets i{font-size:60px;color:#F8BA0B;}
+.pattern-bg{width:100%;height:82px;background:url("../src/support-pattern.png")/*tpa=http://cool.miaov.com/20160629js/fanzhongyong/fir/price/src/support-pattern.png*/ repeat-x;}
+.section{padding-top:72px;text-align:center;width:100%;margin-bottom:40px;}
+#package_content{margin-bottom:40px;}
+.package-card{position:relative;width:280px;height:350px;display:inline-block;vertical-align:middle;background-color:#fff;box-shadow:0 4px 15px 0 rgba(0,0,0,.1);}
+.package-card.active{width:300px;height:410px;margin-left:-10px;margin-right:-9px;}
+#active{z-index:99;}
+.package-header{color:#fff;padding-top:35px;height:134px;background-color:#1AA79A;padding-top:35px;border-radius:0 0 50% 50%/0 0 50px 50px;}
+.package-header h2{padding-top:10px;font-family:"微软雅黑";font-weight:normal;font-size:50px;margin-bottom:10px;}
+.package-content{height:100px;width:100%;line-height:100px;font-size:40px;color:#3F515F;font-family:"微软雅黑";display:inline-block;}
+.btn{width:120px;height:40px;font-family:"微软雅黑";background-color:#fff;color:#1AA79A;border-radius:20px;border:1px solid transparent;border-color:#1AA79A;}
+.btn:hover{background-color:gold;color:#fff;border:none;}
+.badge-wrap{margin:0 auto;width:60px;height:30px;background-color:#F87335;font-size:15px;}
+.badge-wrap span{width:60px;line-height:45px;display:inline-block;color:#fff;background-color:#F87335;}
+.arraw{width:0;height:0;overflow:hidden;border:30px solid transparent;border-bottom:15px solid #fff;border-top:none;box-sizing:border-box;display:inline-block;}
+.section packages-content small{font-size:15px;}
+#welcom{color:#1AA79A;}
+.packages-cert{color:#fff;background-color:#1AA79A;padding-bottom:80px;}
+.cert-header{margin-bottom:46px;}
+.cert-header i{font-size:100px;}
+.half{display:inline-block;font-family:"微软雅黑";}
+.cert-item{font-size:28px;margin-bottom:16px;}
+.list-unstyled{font-size:20px;}
+.text-right{text-align:right;padding-right:56px;border-right:4px solid #fff;}
+.text-left{text-align:left;margin-left:52px;}
+.packages-faq{margin:0 auto;display:table;width:840px;color:#1AA79A;}
+.packages-faq-header{font-family:arial;vertical-align:top;line-height:1;display:inline-block;font-size:60px;width:210px;height:328px;}
+.packages-faq-content{display:inline-block;font-size:14px;}
+.faq-title{font-size:20px;margin-bottom:8px;}
+.faq-list-items{color:#979799;margin-bottom:40px;}
+.faq-list-items li{line-height:20px;}
+.footer{margin-top:50px;text-align:center;border-top:1px solid #979797;padding-top:30px;padding-bottom:40px;}
+.list-inline{width:950px;overflow:hidden;color:#505556;font-size:14px;font-family:arial;margin-left:10px;margin-bottom:5px;}
+.list-inline li{float:left;padding-right:5px;padding-left:5px;line-height:30px;}
+.list-inline li:hover{text-decoration:underline;}
+.list-inline li a,.locale a{color:#505556;font-size:14px;font-family:arial;}
+.locale{width:200px;display:inline-block;text-align:right;}	
